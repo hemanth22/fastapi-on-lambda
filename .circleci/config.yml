@@ -34,6 +34,10 @@ jobs:
           name: list directory
           command: ls -ltr
 
+      - run:
+          name: present workdirectory
+          command: pwd
+
       - store_artifacts:
           path: /app/fastapi-on-lambda/lambda_artifact.zip
 
