@@ -39,7 +39,7 @@ jobs:
           command: pwd
 
       - store_artifacts:
-          path: /app/fastapi-on-lambda/lambda_artifact.zip
+          path: /home/circleci/project/lambda_artifact.zip
 
 workflows:
   test_my_app:
