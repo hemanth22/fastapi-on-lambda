@@ -20,7 +20,7 @@ jobs:
 
       - run:
           name: package the artifacts
-          command: cd dep; zip ../lambda_artifact.zip -r .
+          command: cd dep; zip ../lambda_artifact.zip -rv .
 
       - run:
           name: list directory
